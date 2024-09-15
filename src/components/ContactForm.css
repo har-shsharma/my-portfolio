@@ -1,0 +1,124 @@
+.formContainer{
+    width:30vw;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.formItems{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.formUserInfo{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.nameInput,
+.emailInput{
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+    height:42px;
+    width:224px;
+    padding-left: 15px; 
+}
+
+.messageInput{
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+    height:150px;
+    width:458px;
+    padding-left: 15px; 
+    padding-top: 10px;
+    resize: none; 
+}
+
+.nameInput::placeholder,
+.emailInput::placeholder,
+.messageInput::placeholder{
+    color:white;
+    font-weight: 400;
+}
+
+.submitButton{
+    color:black;    
+    height:50px;
+    width:458px;
+    border:0px;
+    font-weight: 500;
+    margin-top:10px;
+}
+
+.nameInput:focus,
+.emailInput:focus,
+.messageInput:focus {
+    border: 2px solid white; 
+    outline: none;
+}
+
+.contactHeading{
+    color:white;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+
+.contactGmail{
+    color:white;
+    font-weight: lighter;
+    margin-top: -10px;
+}
+
+.contactNumber{
+    color:white;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+}
+
+.onSubmitMessage{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    letter-spacing: 5px;
+}
+
+@media (max-width : 768px){
+    .nameInput,
+.emailInput{
+    width:170px;
+}
+.messageInput{
+    width:350px;
+}
+.submitButton{
+    width:350px;
+    color:black;
+    background-color: white;
+}
+.contact-form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.formContainer{
+    left:0px;
+}
+.contactHeading{
+    font-size: 30px;
+    width:100vw;
+    letter-spacing: 5px;
+    text-align: center;
+}
+.onSubmitMessage{
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+}

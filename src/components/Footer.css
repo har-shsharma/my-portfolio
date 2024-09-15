@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:5000px;
+    color:white;
+    background-color: black;
+    z-index:2;
+    height:80px;
+}
+
+@media (max-width :768px){
+    .footer{
+        top:4250px;
+    }
+}

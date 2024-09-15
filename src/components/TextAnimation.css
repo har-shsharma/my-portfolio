@@ -1,0 +1,30 @@
+
+.TextAnimation {
+  display: flex;
+  justify-content: center;
+  background-image: url('../../public/images/black.jpg');
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  overflow:hidden;
+}
+
+.idolImage {
+  width: 50vw;
+  height:auto;
+  position:absolute;
+  top:251px;
+}
+
+@media (max-width :768px) {
+  .TextAnimation {
+    height: 73.5vh;
+  }
+
+  .idolImage {
+    width: 60vw;
+    top:52.5vh;
+  }
+}

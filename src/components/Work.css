@@ -1,0 +1,88 @@
+.workContainer{
+    position:relative;
+    top:4300px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:100px;
+}
+
+.workItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height:600px;
+    color:black;
+    background-color: white;
+    padding:100px;
+}
+
+.workContent{
+    display: flex;
+    gap:100px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.workHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workHeading{
+    font-weight: bold;
+    font-size: 100px;
+    letter-spacing: 20px;
+}
+
+.workDescription{
+    text-align: center;
+}
+
+.workSubHeading{
+    font-size : 30px;
+    font-weight: lighter;
+    letter-spacing: 20px;
+}
+
+.companyHeading{
+    margin-top: -10px;
+    font-weight: 350;
+}
+
+.roleHeading{
+    font-weight: 500;
+}
+
+.workDuration{
+    margin-bottom: 30px;
+}
+
+
+@media (max-width : 768px){
+    .workHeading{
+        font-size:50px;
+        letter-spacing: 10px;
+    }
+    .workSubHeading{
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .workContainer{
+        top:3750px;
+    }
+    .workItem{
+        width:80vw;
+        height:410px;
+        padding:40px;
+    }
+    .companyHeading{
+        font-size: 20px;
+    }
+    .roleHeading{
+        font-size: 24px;
+    }
+}
