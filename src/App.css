@@ -45,7 +45,7 @@ body {
   background: url('../public/images/white.jpg') no-repeat center center;
   background-size: cover;
   z-index: 2;
-  min-height: 45.5vh;
+  min-height: 46vh;
   width: 100%;
 }
 
@@ -86,13 +86,17 @@ body {
   }
   .about-container {
     position: absolute;
-    top: 254px;
+    top: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 48vh;
   }
   .mainHeadline {
     font-size: 3rem;
   }
   .subHeadline {
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .aboutHeadline {
     margin-top: 50px;

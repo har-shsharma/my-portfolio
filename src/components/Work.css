@@ -76,13 +76,13 @@
     }
     .workItem{
         width:80vw;
-        height:410px;
+        height:425px;
         padding:40px;
     }
     .companyHeading{
         font-size: 20px;
     }
     .roleHeading{
-        font-size: 24px;
+        font-size: 23px;
     }
 }

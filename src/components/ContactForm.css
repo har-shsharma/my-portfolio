@@ -69,12 +69,16 @@
     color:white;
     font-weight: lighter;
     margin-top: -10px;
+    width:100vw;
+    text-align: center;
 }
 
 .contactNumber{
     color:white;
     font-weight: lighter;
     margin-bottom: 20px;
+    width:100vw;
+    text-align: center;
 }
 
 .contact-form{
@@ -93,13 +97,13 @@
 @media (max-width : 768px){
     .nameInput,
 .emailInput{
-    width:170px;
+    width:160px;
 }
 .messageInput{
-    width:350px;
+    width:330px;
 }
 .submitButton{
-    width:350px;
+    width:330px;
     color:black;
     background-color: white;
 }
