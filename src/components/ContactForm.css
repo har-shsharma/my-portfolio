@@ -69,16 +69,12 @@
     color:white;
     font-weight: lighter;
     margin-top: -10px;
-    width:100vw;
-    text-align: center;
 }
 
 .contactNumber{
     color:white;
     font-weight: lighter;
     margin-bottom: 20px;
-    width:100vw;
-    text-align: center;
 }
 
 .contact-form{
@@ -124,5 +120,9 @@
 .onSubmitMessage{
     font-size: 20px;
     letter-spacing: 3px;
+}
+.contactNumber{
+    width: 100vw;
+    text-align: center;
 }
 }
