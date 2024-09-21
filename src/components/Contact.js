@@ -3,7 +3,7 @@ import './Contact.css';
 import ContactForm from './ContactForm';
 
 const Contact = () => {
-  const [isVideoPlaying, setIsVideoPlaying] = useState(false); 
+  const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -14,7 +14,7 @@ const Contact = () => {
       if (scrollPosition > triggerPosition && !isVideoPlaying) {
         if (videoElement) {
           videoElement.play().then(() => {
-            setIsVideoPlaying(true); 
+            setIsVideoPlaying(true);
           }).catch(err => {
             console.log('Error in playing video:', err);
           });
@@ -28,9 +28,9 @@ const Contact = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    
+
     return () => {
-      window.removeEventListener('scroll', handleScroll); 
+      window.removeEventListener('scroll', handleScroll);
     };
   }, [isVideoPlaying]);
 
@@ -38,7 +38,7 @@ const Contact = () => {
     <div className="contactContainer">
       <ContactForm />
       <div className="videoBackground">
-        <video muted loop preload="none">
+        <video muted loop autoPlay playsInline>
           <source src="/images/sceneVideo.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>

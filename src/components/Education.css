@@ -13,12 +13,6 @@
     background-attachment: fixed;
 }
 
-.educationBackgroundImage{
-    z-index: -4;
-    height:100%;
-    width:100%;
-}
-
 .educationHeading{
     padding-top: 100px;
     font-weight: bold;
