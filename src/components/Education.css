@@ -6,9 +6,17 @@
     top:4550px;
     color:black;
     height:800px;
+    overflow: hidden;
     background-image: url('../../public/images/samurai.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+}
+
+.educationBackgroundImage{
+    z-index: -4;
+    height:100%;
+    width:100%;
 }
 
 .educationHeading{
