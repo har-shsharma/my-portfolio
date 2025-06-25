@@ -43,7 +43,9 @@ function TextAnimation() {
       window.removeEventListener('resize', updateInitialValues);
       window.removeEventListener('scroll', handleScroll);
     };
-  }, [ minScroll, maxScroll]);
+  }, 
+  // eslint-disable-next-line
+  [ minScroll, maxScroll]);
 
   return (
     <div className="TextAnimation" style={{ height: croppedHeight }}>
